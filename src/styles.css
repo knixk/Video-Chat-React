@@ -1,0 +1,64 @@
+:root {
+  --size: 400px;
+}
+
+* {
+  /* border: 1px solid black; */
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background: gray;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav {
+  padding: 40px;
+  display: flex;
+  background: rgb(211, 180, 4);
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: var(--size);
+  width: var(--size);
+  margin-right: 100px;
+}
+
+main {
+  margin: 40px 20px;
+}
+
+.box > img {
+  height: var(--size);
+  width: var(--size);
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 40px;
+  display: flex;
+  background: rgb(4, 211, 87);
+  justify-content: center;
+  display: none;
+}
+
+.btns {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.btns > button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}

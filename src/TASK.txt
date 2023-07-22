@@ -1,0 +1,10 @@
+maintainer, (knixk)
+
+# TASK 1 | (Priority : High)
+
+1. Find a way how to add video input from user and show it (Not done) 
+2. Figure out how we can add real time communication. (Not done)
+3. Need to create user id for seperate user and establish a authentication system. (Not done)
+
+note: 1. after completing the tasks add a done remark.
+      2. Do a pull request before making changes into main, make sure someone reviews it.
